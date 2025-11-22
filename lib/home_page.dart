@@ -12,7 +12,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.deepOrange[200],
       body: CarouselSlider(
+        slideTransform: CubeTransform(),
+        slideIndicator: CircularSlideIndicator(
+          padding: EdgeInsets.only(bottom: 20),
+        ),
+        unlimitedMode: true,
         children: [
           Container(
             color: Colors.deepOrange,
