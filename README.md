@@ -1,16 +1,28 @@
-# cube_wipe_flutter
+# 📱 Cube Wipe - Flutter
 
-A new Flutter project.
+A simple Flutter demo featuring a clean **carousel slider** with a cube-style transition effect. Built using the `flutter_carousel_slider` package with soft blue gradient backgrounds.
 
-## Getting Started
+## 📸 Screenshots
 
-This project is a starting point for a Flutter application.
+<div align="center">
+  <img src="screenshots/Screenshot1.png" width="250" />
+  <img src="screenshots/Screenshot2.png" width="250" />
+  <img src="screenshots/Screenshot3.png" width="250" />
+  <img src="screenshots/Screenshot4.png" width="250" />
+  <img src="screenshots/Screenshot5.png" width="250" />
+  <img src="screenshots/Screenshot6.png" width="250" />
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Cube transition animation
+* Infinite looping carousel
+* Circular slide indicator
+* Minimal, clean UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+```bash
+flutter pub get
+flutter run
+```
